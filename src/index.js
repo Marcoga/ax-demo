@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import Hello from "./Hello";
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Home = () => (
   <div>
