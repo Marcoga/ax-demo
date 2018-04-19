@@ -1,3 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export default ({ name }) => <h1>Hello {name}!</h1>;
+export default ({ children }) => (
+  <div style={{ border: "1px solid #ccc", padding: "20px" }}>{children}</div>
+);
